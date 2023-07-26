@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layoutv1 from "./components/Layoutv1.tsx";
+import Layoutv1 from "./pages/Layoutv1/Layoutv1.tsx";
 // import { BrowserRouter, Route } from "react-router-dom";
 const router = createBrowserRouter([
   {

@@ -1,6 +1,6 @@
 import React from "react";
-import { ProfileCardProps } from "./ProfileCard";
-import "./ExperienceCard.css";
+import { ProfileCardProps } from "../ProfileCard/ProfileCard";
+import "./ExperiencesCard.css";
 
 type experience = { time: string; role: string; desc: string; logo: string };
 

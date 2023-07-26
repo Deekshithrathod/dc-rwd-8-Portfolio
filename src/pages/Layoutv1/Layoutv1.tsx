@@ -1,9 +1,9 @@
 import React from "react";
-import ProfileCard from "./ProfileCard";
-import HobbiesCard from "./HobbiesCard";
-import ExperiencesCard from "./ExperiencesCard";
-import BlogCard from "./BlogCard";
-import ProjectCard from "./ProjectCard";
+import ProfileCard from "../../components/ProfileCard/ProfileCard";
+import HobbiesCard from "../../components/HobbiesCard/HobbiesCard";
+import ExperiencesCard from "../../components/ExperiencesCard/ExperiencesCard";
+import BlogCard from "../../components/BlogCard/BlogCard";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./Layoutv1.css";
 
 const Layoutv1 = () => {
