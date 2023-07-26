@@ -17,7 +17,7 @@ const ProfileCard = (props: ProfileCardProps) => {
   return (
     <div className={`profile-card-${props.orientation}`}>
       <div className="profile-image">
-        <img src="profile.jpg" alt="profile photo" />
+        <img src="profile.webp" alt="profile photo" />
       </div>
       <div className="info-container">
         <div className="details">
