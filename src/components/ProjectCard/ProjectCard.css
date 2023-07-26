@@ -7,9 +7,9 @@
   display: flex;
   gap: 0 3rem;
 
-  width: 80%;
+  /* width: 80%;
   max-width: 1200px;
-  min-width: 1000px;
+  min-width: 1000px; */
 
   height: 15rem;
 }

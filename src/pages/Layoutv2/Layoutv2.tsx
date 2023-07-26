@@ -26,7 +26,7 @@ const Layoutv2 = () => {
         <ProjectCard orientation="horizontal" />
         <ProjectCard orientation="horizontal" />
         <ProjectCard orientation="horizontal" />
-        <div className="projects-panel">
+        <div className="projects-panel blogs-panel">
           <h1>Blogs</h1>
         </div>
         <BlogCard orientation="horizontal" />

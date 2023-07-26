@@ -79,9 +79,9 @@ div {
   display: flex;
   flex-direction: column;
 
-  width: 20%;
+  /* width: 20%;
   min-width: 18rem;
-  max-width: 26rem;
+  max-width: 26rem; */
   height: 30rem;
 
   padding: 1.25rem;

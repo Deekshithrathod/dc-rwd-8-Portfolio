@@ -1,45 +1,41 @@
 .v2 {
-  /* background-color: rebeccapurple; */
+  margin: 0 auto;
+
+  padding: 1.25rem;
   width: 80%;
-  max-width: 1000px;
-  margin: 40px auto;
+  max-width: 1200px;
+  min-width: 1000px;
 
   display: flex;
-  justify-content: space-between;
 }
 
 .left-col-v2 {
-  /* padding: 20px; */
-  margin-top: 0px;
-  width: 30%;
+  width: 35%;
   /* background-color: antiquewhite; */
-}
-
-.right-col-v2 {
-  margin-top: 0px;
-  width: 70%;
-  background-color: aliceblue;
-}
-
-.left-col-v2 > .profile-card-vertical {
-  /* background-color: red; */
-  width: 70%;
-  height: 20%;
-  /* width: 100%; */
-  /* margin-left: 0; */
-  margin-top: 0;
-  /* max-width: 10%; */
+  padding-right: 1rem;
 }
 
 .left-col-v2 > .exp-card-vertical {
-  /* background-color: pink; */
-  width: 70%;
-  /* padding: 0 4px; */
-  /* margin: 0 -10px; */
+  margin-top: 2rem;
 }
 
 .left-col-v2 > .hobby-card-vertical {
-  /* background-color: yellow; */
-  width: 60%;
-  margin: 0 20px;
+  margin-top: 2rem;
+}
+
+.right-col-v2 {
+  width: 65%;
+  padding-left: 1rem;
+  /* background-color: aliceblue; */
+}
+
+.right-col-v2 > .project-card-horizontal {
+  margin-top: 1rem;
+}
+
+.right-col-v2 > .blogs-panel {
+  margin-top: 2rem;
+}
+.right-col-v2 > .blog-card-horizontal {
+  margin-top: 1rem;
 }
