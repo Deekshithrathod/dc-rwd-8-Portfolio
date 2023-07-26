@@ -4,7 +4,8 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layoutv1 from "./pages/Layoutv1/Layoutv1.tsx";
-// import { BrowserRouter, Route } from "react-router-dom";
+import Layoutv2 from "./pages/Layoutv2/Layoutv2.tsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/v1",
     element: <Layoutv1 />,
+  },
+  {
+    path: "/v2",
+    element: <Layoutv2 />,
   },
 ]);
 

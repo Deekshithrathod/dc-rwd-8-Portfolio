@@ -12,12 +12,13 @@ const AllComponents = () => {
       <ProfileCard orientation="horizontal" />
       <ProjectCard orientation="horizontal" />
       <BlogCard orientation="horizontal" />
+      <ExperiencesCard orientation="horizontal" />
+      <HobbiesCard orientation="horizontal" />
+
       <ProfileCard orientation="vertical" />
       <ProjectCard orientation="vertical" />
       <BlogCard orientation="vertical" />
-      <ExperiencesCard orientation="horizontal" />
       <ExperiencesCard orientation="vertical" />
-      <HobbiesCard orientation="horizontal" />
       <HobbiesCard orientation="vertical" />
     </div>
   );

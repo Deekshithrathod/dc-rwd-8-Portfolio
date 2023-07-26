@@ -11,17 +11,17 @@ type Hobby = {
 const hobbiesList: Hobby[] = [
   {
     name: "Gaming",
-    image: "hobby.webp",
-    desc: "Quisque feugiat malesuada molestie.",
-  },
-  {
-    name: "Nexflix",
-    image: "hobby.webp",
+    image: "hob-1.webp",
     desc: "Quisque feugiat malesuada molestie.",
   },
   {
     name: "Critiquing",
-    image: "hobby.webp",
+    image: "hob-1.webp",
+    desc: "Quisque feugiat malesuada molestie.",
+  },
+  {
+    name: "Nexflix",
+    image: "hob-3.webp",
     desc: "Quisque feugiat malesuada molestie.",
   },
 ];

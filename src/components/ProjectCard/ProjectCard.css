@@ -1,38 +1,42 @@
 .project-card-horizontal {
   background-color: white;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+  padding: 1.25rem;
+
+  display: flex;
+  gap: 0 3rem;
 
   width: 80%;
-  max-width: 1000px;
-  padding: 24px;
-  display: flex;
-  margin: 0 auto 10px;
+  max-width: 1200px;
+  min-width: 1000px;
+
+  height: 15rem;
 }
 
 .project-image {
-  width: 40%;
-  max-width: 380px;
-  max-height: 260px;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  border-radius: 0.75rem;
 
-  border-radius: 12px;
-  margin-right: 52px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  width: 40%;
+  min-width: 10rem;
 }
+
 .project-image > img {
-  max-width: 100%;
-  opacity: 0.8;
+  width: 100%;
 }
 
 .project-details {
   width: 60%;
+
   display: flex;
   flex-direction: column;
 
   color: #828282;
   font-family: Montserrat;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -40,61 +44,67 @@
 
 .project-details > .project-title {
   color: #333;
-  font-size: 24px;
+  font-size: 1.5rem;
 
-  margin: 24px 0 18px;
+  margin: 1.5rem 0 1.125rem;
+}
+
+.project-desc {
+  font-size: 0.9rem;
 }
 
 .project-buttons {
   margin-top: auto;
+  display: flex;
+  gap: 0 0.75rem;
 }
 
 .project-buttons button {
-  width: 135px;
-  height: 46px;
-  border-radius: 12px;
   background: #2f80ed;
+  width: 8rem;
+  height: 3rem;
   border: none;
+  border-radius: 0.75rem;
 }
 
-.project-buttons button:nth-child(1) {
+.project-buttons > a:nth-child(1) > button {
   color: white;
-  margin-right: 20px;
 }
-.project-buttons button:nth-child(2) {
+.project-buttons > a:nth-child(2) > button {
   background-color: white;
-  margin-right: 20px;
   color: #2f80ed;
   border: 1px solid #2f80ed;
 }
 
 .project-card-vertical {
-  /* background-color: rebeccapurple; */
-  width: 30%;
-  height: 80%;
-  border-radius: 12px;
-  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
 
-  max-width: 400px;
-  max-height: 600px;
-
-  padding: 24px;
-  margin: 0 auto 100px;
   background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
 
   display: flex;
   flex-direction: column;
+  gap: 1.5rem 0;
+
+  width: 20%;
+  min-width: 18rem;
+  max-width: 26rem;
+  height: 25rem;
+
+  padding: 1.25rem;
 }
 
 .project-card-vertical > .project-image {
   width: 100%;
+  height: 10rem;
+  background-color: rebeccapurple;
 }
 
 .project-card-vertical > .project-details {
-  margin-top: 24px;
   width: 100%;
 }
-
-.project-card-vertical .project-desc {
-  margin-bottom: 32px;
+.project-card-vertical > .project-details > .project-buttons {
+  margin-top: 4rem;
 }

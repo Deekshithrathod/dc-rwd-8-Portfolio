@@ -9,19 +9,19 @@ const experiencesList: experience[] = [
     time: "Feb 2017 - Current",
     role: "Front-end developer",
     desc: "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
-    logo: "comp-2.svg",
+    logo: "comp-2.png",
   },
   {
     time: "Aug 2016 - Feb 2018",
     role: "Full-stack developer",
     desc: "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
-    logo: "comp-1.webp",
+    logo: "comp-2.png",
   },
   {
     time: "Jun 2015 - Aug 2016",
     role: "Junior front-end",
     desc: "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
-    logo: "comp-1.webp",
+    logo: "comp-1.png",
   },
 ];
 

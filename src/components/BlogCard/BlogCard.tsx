@@ -17,7 +17,7 @@ const BlogCard = (props: ProfileCardProps) => {
           feugiat malesuada molestie.
         </div>
         <div className="blog-link">
-          <a href="#">dev.to</a>
+          <a href="#">hashnode.com</a>
         </div>
       </div>
       <div className="blog-image">

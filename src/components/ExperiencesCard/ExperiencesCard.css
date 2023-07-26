@@ -1,28 +1,28 @@
 .exp-card-horizontal {
-  width: 80%;
-  padding: 20px;
-  max-width: 1000px;
-
-  margin: 20px auto;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+  padding: 1.25rem;
+
+  width: 80%;
+  max-width: 1200px;
+  min-width: 1000px;
+  height: 12rem;
 }
 
 .exp-card-horizontal > h1 {
   color: #4f4f4f;
   font-family: Montserrat;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 
 .exp-cards {
-  /* background-color: rebeccapurple; */
-  width: 100%;
   display: flex;
-  margin-top: 28px;
+  gap: 0 2rem;
+  margin-top: 1.5rem;
 }
 
 .exp-card {
@@ -31,73 +31,81 @@
 }
 
 .exp-card > .company-logo {
-  width: 30%;
-  padding-top: 16px;
-  padding-right: 16px;
-  /* display: flex; */
-  /* background-color: red; */
+  width: 20%;
+  padding: 0 1rem 0 0;
+}
+
+.exp-card:nth-child(3) img {
+  border: 2px solid gainsboro;
 }
 
 .company-logo > img {
+  border-radius: 50%;
   max-width: 100%;
-  /* background-color: gainsboro; */
-  /* border-radius: 12px; */
-  padding: 4px;
 }
 
 .exp-card > .exp-details {
-  width: 70%;
-  /* background-color: antique
-  white; */
+  width: 85%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #828282;
 }
 
 .exp-details > .time-spent {
-  color: #828282;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  font-size: 0.8em;
 }
 
 .exp-details > .role {
   color: #333;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
-  margin-top: 12px;
+  font-size: 1em;
+  margin-top: 0.75rem;
 }
 
 .exp-details > .work-desc {
-  width: 160px;
-  color: #828282;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-top: 32px;
+  font-size: 0.9em;
+  margin-top: 1rem;
 }
 
 .exp-card-vertical {
-  width: 30%;
-  padding: 20px;
-  max-width: 1000px;
-
-  margin: 20px auto;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+
+  width: 20%;
+  min-width: 18rem;
+  max-width: 26rem;
+
+  padding: 1.25rem;
 }
 
 .exp-card-vertical > .exp-cards {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
 }
 
-.exp-card-vertical .exp-card {
+.exp-card-vertical > .exp-cards > .exp-card {
   width: 100%;
-  margin-top: 30px;
+}
+
+.exp-card-vertical > .exp-cards > .exp-card > .company-logo {
+  width: 15%;
+  padding-right: 0.75rem;
+}
+
+.exp-card-vertical > .exp-cards > .exp-card > .exp-details {
+  font-size: 14px;
+  width: 85%;
+}
+.exp-card-vertical > .exp-cards > .exp-card > .exp-details > .role {
+  margin-top: 0.25rem;
+}
+.exp-card-vertical > .exp-cards > .exp-card > .exp-details > .work-desc {
+  margin-top: 0.5rem;
 }
