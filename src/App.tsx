@@ -20,7 +20,6 @@ function App() {
           <b>Deekshith</b>
         </a>{" "}
       </div>
-      {/* <AllComponents /> */}
     </>
   );
 }
