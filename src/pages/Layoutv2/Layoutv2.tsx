@@ -1,4 +1,3 @@
-import React from "react";
 import "./Layoutv2.css";
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import ExperiencesCard from "../../components/ExperiencesCard/ExperiencesCard";

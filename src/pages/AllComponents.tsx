@@ -1,4 +1,3 @@
-import React from "react";
 import ProfileCard from "../components/ProfileCard/ProfileCard";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 import BlogCard from "../components/BlogCard/BlogCard";
