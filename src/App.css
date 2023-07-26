@@ -1,16 +1,14 @@
 .home {
-  /* background-color: rebeccapurple; */
-  width: 100vw;
-  height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  /* width: 100vw; */
+  height: 95vh;
 }
 
 .home > .button-container {
-  width: 20rem;
-  height: 20rem;
+  /* width: 20rem;
+  height: 20rem; */
 
   display: flex;
   justify-content: space-around;
@@ -39,4 +37,10 @@ button {
   color: #2f80ed;
   border-radius: 12px;
   border: 1px solid #2f80ed;
+}
+
+.created-by-footer {
+  margin-top: auto;
+  text-align: center;
+  padding-bottom: 20px;
 }

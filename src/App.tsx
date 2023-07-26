@@ -14,6 +14,12 @@ function App() {
           </Link>
         </div>
       </div>
+      <div className="created-by-footer">
+        created by{" "}
+        <a>
+          <b>Deekshith</b>
+        </a>{" "}
+      </div>
       {/* <AllComponents /> */}
     </>
   );

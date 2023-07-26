@@ -4,5 +4,12 @@
 }
 
 body {
+  /* height: 100vh; */
   background-color: #f2f2f2;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+
+  font-family: Montserrat;
 }
