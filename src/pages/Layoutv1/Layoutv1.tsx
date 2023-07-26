@@ -8,14 +8,14 @@ import "./Layoutv1.css";
 
 const Layoutv1 = () => {
   return (
-    <div>
+    <div className="v1">
       <ProfileCard orientation="horizontal" />
-      <div className="main">
+      <div className="middle">
         <div className="left-col">
           <HobbiesCard orientation="vertical" />
         </div>
         <div className="right-col">
-          <BlogCard orientation="vertical" />
+          <BlogCard orientation="horizontal" />
           <ExperiencesCard orientation="vertical" />
         </div>
       </div>

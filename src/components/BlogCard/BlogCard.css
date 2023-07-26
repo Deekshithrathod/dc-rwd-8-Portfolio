@@ -7,9 +7,9 @@
   display: flex;
   gap: 0 2rem;
 
-  width: 80%;
-  max-width: 1200px;
-  min-width: 1000px;
+  /* width: 80%; */
+  /* max-width: 1200px; */
+  /* min-width: 1000px; */
   height: 20rem;
 }
 
@@ -80,7 +80,7 @@
 
   width: 20%;
   min-width: 18rem;
-  max-width: 26rem;
+  /* max-width: 26rem; */
   height: 22rem;
   position: relative;
 }

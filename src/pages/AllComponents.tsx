@@ -8,7 +8,6 @@ import HobbiesCard from "../components/HobbiesCard/HobbiesCard";
 const AllComponents = () => {
   return (
     <div>
-      {/* <h1>All Components</h1> */}
       <ProfileCard orientation="horizontal" />
       <ProjectCard orientation="horizontal" />
       <BlogCard orientation="horizontal" />
