@@ -1,42 +1,72 @@
+import { orientationProp } from "../../common/commonType";
 import "./ProfileCard.css";
 
-export type ProfileCardProps = {
-  orientation: "vertical" | "horizontal";
+type ProfileCardProps = orientationProp;
+
+const profileSummary = {
+  summary: [
+    `I'm a skilled MERN stack developer adept at integrating MongoDB, Express.js, React, and Node.js to create dynamic web applications. `,
+    `Proficient in RESTful API development with Express, I ensure efficient server-side operation`,
+    `My expertise extends to MongoDB for seamless data management. I excel in crafting responsive user interfaces with React, prioritizing user experience.`,
+  ],
+};
+const ProfileImage = ({ path }: { path: string }) => {
+  return (
+    <div className="profile-image">
+      <img src={path} alt="profile photo" />
+    </div>
+  );
+};
+const ProfileSummary = ({ orientation }: orientationProp) => {
+  const outputHorizontal = (
+    <>
+      {profileSummary.summary[0]}
+      <br />
+      <br />
+      {profileSummary.summary[1]}
+    </>
+  );
+  const outputVertical = <>{profileSummary.summary[0]}</>;
+  return (
+    <div className="summary">
+      {orientation === "horizontal" ? outputHorizontal : outputVertical}
+    </div>
+  );
+};
+const Details = () => {
+  return (
+    <div className="person-details">
+      <div className="name">Deekshith Rathod</div>
+      <div className="occupation">Full-Stack Developer (MERN)</div>
+    </div>
+  );
 };
 
-const profileDetails = {
-  summary: `Self-motivated developer, who is willing to learn and create
-  outstanding UI applications.
-  
-  
-  Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
-  feugiat malesuada molestie.`,
+const ContactDetails = () => {
+  return (
+    <div className="contact-details">
+      <div className="contact-row">
+        <span className="material-symbols-outlined">mail</span>
+        <div>deekshithrathod@gmail.com</div>
+      </div>
+      <div className="contact-row">
+        <span className="material-symbols-outlined">call</span>
+        <div>+91 837-302-8111</div>
+      </div>
+    </div>
+  );
 };
 
 const ProfileCard = (props: ProfileCardProps) => {
   return (
     <div className={`profile-card-${props.orientation}`}>
-      <div className="profile-image">
-        <img src="profile.webp" alt="profile photo" />
-      </div>
+      <ProfileImage path="profile.png" />
       <div className="info-container">
         <div className="details">
-          <div className="person-details">
-            <div className="name">Deekshith Rathod</div>
-            <div className="occupation">Full-Stack Developer (MERN)</div>
-          </div>
-          <div className="contact-details">
-            <span className="material-symbols-outlined">mail</span>
-            <div>deekshithrathod@gmail.com</div>
-            <span className="material-symbols-outlined">call</span>
-            <div>+91 837-302-8111</div>
-          </div>
+          <Details />
+          <ContactDetails />
         </div>
-        <div className="summary">
-          {props.orientation !== "vertical"
-            ? profileDetails.summary
-            : profileDetails.summary.slice(0, 91)}
-        </div>
+        <ProfileSummary orientation={props.orientation} />
       </div>
     </div>
   );
