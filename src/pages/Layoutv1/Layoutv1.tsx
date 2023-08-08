@@ -1,9 +1,14 @@
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
 import HobbiesCard from "../../components/HobbiesCard/HobbiesCard";
 import ExperiencesCard from "../../components/ExperiencesCard/ExperiencesCard";
-import BlogCard from "../../components/BlogCard/BlogCard";
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import ProjectCard, { Project } from "../../components/ProjectCard/ProjectCard";
 import "./Layoutv1.css";
+import BlogCard, { Blog } from "../../components/BlogCard/BlogCard";
+import Blogs from "../../common/Blogs.json";
+import Projects from "../../common/Projects.json";
+
+const BlogsList: Blog[] = Blogs.blogs;
+const ProjectsList: Project[] = Projects.projects;
 
 const Layoutv1 = () => {
   return (
@@ -14,7 +19,9 @@ const Layoutv1 = () => {
           <HobbiesCard orientation="vertical" />
         </div>
         <div className="right-col">
-          <BlogCard orientation="horizontal" />
+          {BlogsList.map((blog) => {
+            return <BlogCard orientation="horizontal" {...blog} />;
+          })}
           <ExperiencesCard orientation="vertical" />
         </div>
       </div>
@@ -27,9 +34,9 @@ const Layoutv1 = () => {
         </div>
       </div>
       <div className="v1-projects">
-        <ProjectCard orientation="vertical" />
-        <ProjectCard orientation="vertical" />
-        <ProjectCard orientation="vertical" />
+        {ProjectsList.map((project) => {
+          return <ProjectCard orientation="vertical" {...project} />;
+        })}
       </div>
     </div>
   );
