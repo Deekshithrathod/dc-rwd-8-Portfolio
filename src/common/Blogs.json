@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "Minimalist Photo Gallery",
+      "description": "Explore a world of insights and inspiration through our simple yet thought-provoking blog. Discover engaging articles on a wide range of topics, from lifestyle and technology to travel and wellness. Join us on a journey of discovery and stay connected with fresh ideas, tips, and stories that resonate with your everyday life.",
+      "link": "hashnode.com",
+      "imageUrl": "blog-1.png"
+    },
+    {
+      "title": "Consultancy Landing Page",
+      "description": "Explore a world of insights and inspiration through our simple yet thought-provoking blog. Discover engaging articles on a wide range of topics, from lifestyle and technology to travel and wellness. Join us on a journey of discovery and stay connected with fresh ideas, tips, and stories that resonate with your everyday life.",
+      "link": "hashnode.com",
+      "imageUrl": "blog-2.png"
+    },
+    {
+      "title": "Cooking blog",
+      "description": "Explore a world of insights and inspiration through our simple yet thought-provoking blog. Discover engaging articles on a wide range of topics, from lifestyle and technology to travel and wellness. Join us on a journey of discovery and stay connected with fresh ideas, tips, and stories that resonate with your everyday life.",
+      "link": "hashnode.com",
+      "imageUrl": "blog-3.png"
+    }
+  ]
+}

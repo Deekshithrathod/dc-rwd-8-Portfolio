@@ -1,26 +1,39 @@
-import { ProfileCardProps } from "../ProfileCard/ProfileCard";
 import "./BlogCard.css";
+import { orientationProp } from "../../common/commonType";
 
-const BlogCard = (props: ProfileCardProps) => {
+export interface Blog {
+  title: string;
+  description: string;
+  link: string;
+  imageUrl: string;
+}
+
+type BlogProps = Blog & orientationProp;
+
+const BlogCard = ({
+  orientation,
+  title,
+  description,
+  link,
+  imageUrl,
+}: BlogProps) => {
   return (
-    <div className={`blog-card-${props.orientation}`}>
+    <div className={`blog-card-${orientation}`}>
       <div className="blog-details">
         <div className="blog-tag">Blog</div>
-        <div className="blog-title">How to organize your CSS</div>
+        <div className="blog-title">{title}</div>
         <div className="blog-desc">
-          In this article I tell the story about Proin eu justo sit amet lacus
-          bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi.
-          <br />
-          <br />
-          Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
-          feugiat malesuada molestie.
+          {orientation === "horizontal"
+            ? description.slice(0, 200)
+            : description.slice(0, 100)}
+          ...
         </div>
         <div className="blog-link">
-          <a href="#">hashnode.com</a>
+          <a href="#">{link}</a>
         </div>
       </div>
       <div className="blog-image">
-        <img src="blog.png" />
+        <img src={imageUrl} />
       </div>
     </div>
   );
