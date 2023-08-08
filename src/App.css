@@ -2,14 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 100vw; */
   height: 95vh;
 }
 
 .home > .button-container {
-  /* width: 20rem;
-  height: 20rem; */
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -17,30 +13,31 @@
 }
 
 .btn {
+  background: #2f80ed;
   color: #fff;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  width: 15rem;
-  border-radius: 12px;
-  background: #2f80ed;
-  height: 4rem;
-  border-radius: 0.75rem;
+
   border: none;
+  border-radius: 0.75rem;
+
+  width: 15rem;
+  height: 4rem;
 }
 
 .button-special,
 button {
   background-color: white;
   color: #2f80ed;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   border: 1px solid #2f80ed;
 }
 
-.created-by-footer {
-  margin-top: auto;
+footer {
   text-align: center;
-  padding-bottom: 20px;
+  margin-top: auto;
+  padding-bottom: 1.25rem;
 }

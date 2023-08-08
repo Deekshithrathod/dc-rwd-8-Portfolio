@@ -10,16 +10,16 @@ function App() {
             <button className="btn">Layout 1</button>
           </Link>
           <Link to={"/v2"}>
-            <button className="button-special btn">Layout 2</button>
+            <button className="btn button-special">Layout 2</button>
           </Link>
         </div>
       </div>
-      <div className="created-by-footer">
+      <footer>
         created by{" "}
         <a>
           <b>Deekshith</b>
         </a>{" "}
-      </div>
+      </footer>
     </>
   );
 }
