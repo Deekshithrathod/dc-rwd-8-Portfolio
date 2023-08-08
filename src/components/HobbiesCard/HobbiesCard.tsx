@@ -1,5 +1,5 @@
-import { ProfileCardProps } from "../ProfileCard/ProfileCard";
 import "./HobbiesCard.css";
+import { orientationProp } from "../../common/commonType";
 
 type Hobby = {
   name: string;
@@ -9,23 +9,23 @@ type Hobby = {
 
 const hobbiesList: Hobby[] = [
   {
-    name: "Gaming",
-    image: "hob-1.webp",
-    desc: "Quisque feugiat malesuada molestie.",
+    name: "Journaling",
+    image: "hob-1.png",
+    desc: "Capturing thoughts, emotions, and experiences on paper to foster self-reflection, creativity, and personal growth.",
   },
   {
-    name: "Critiquing",
-    image: "hob-1.webp",
-    desc: "Quisque feugiat malesuada molestie.",
+    name: "Photography",
+    image: "hob-2.png",
+    desc: "Freezing moments in time through the lens to tell stories, evoke emotions, and celebrate the beauty of the world.",
   },
   {
     name: "Nexflix",
-    image: "hob-3.webp",
-    desc: "Quisque feugiat malesuada molestie.",
+    image: "hob-3.png",
+    desc: "Immersing myself in captivating narratives, diverse worlds, and a spectrum of emotions.",
   },
 ];
 
-const HobbiesCard = (props: ProfileCardProps) => {
+const HobbiesCard = (props: orientationProp) => {
   return (
     <div className={`hobby-card-${props.orientation}`}>
       <h1>Hobbies</h1>
