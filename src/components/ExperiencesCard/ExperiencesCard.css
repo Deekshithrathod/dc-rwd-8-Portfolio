@@ -2,17 +2,13 @@
   background-color: white;
   border-radius: 0.75rem;
   box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
-  padding: 1.25rem;
 
-  width: 80%;
-  max-width: 1200px;
-  min-width: 1000px;
-  height: 12rem;
+  padding: 1.25rem 2rem;
 }
 
 .exp-card-horizontal > h1 {
   color: #4f4f4f;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
@@ -22,33 +18,38 @@
 .exp-cards {
   display: flex;
   gap: 0 2rem;
+
   margin-top: 1.5rem;
 }
 
 .exp-card {
   display: flex;
-  width: 33%;
+  width: 100%;
+  padding-right: 2rem;
 }
 
 .exp-card > .company-logo {
   width: 20%;
   max-width: 4rem;
+
   padding: 0 1rem 0 0;
 }
 
-.exp-card:nth-child(3) img {
+.exp-card:nth-child(3) > .company-logo > img {
   border: 2px solid gainsboro;
 }
 
 .company-logo > img {
   border-radius: 50%;
-  max-width: 100%;
+  width: 100%;
+
+  object-fit: cover;
 }
 
-.exp-card > .exp-details {
+.exp-details {
   width: 85%;
 
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   line-height: normal;
   font-weight: 500;
@@ -77,22 +78,13 @@
   border-radius: 0.75rem;
   box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
 
-  /* width: 20%; */
-  /* min-width: 18rem; */
-  /* max-width: 26rem; */
-
-  padding: 1.25rem;
+  padding: 1.5rem 2.5rem 1.5rem 1.5rem;
 }
 
 .exp-card-vertical > .exp-cards {
-  margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
-}
-
-.exp-card-vertical > .exp-cards > .exp-card {
-  width: 100%;
+  gap: 1.5rem 0;
 }
 
 .exp-card-vertical > .exp-cards > .exp-card > .company-logo {
@@ -102,7 +94,6 @@
 
 .exp-card-vertical > .exp-cards > .exp-card > .exp-details {
   font-size: 14px;
-  width: 85%;
 }
 .exp-card-vertical > .exp-cards > .exp-card > .exp-details > .role {
   margin-top: 0.25rem;
