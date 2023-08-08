@@ -37,9 +37,15 @@
 
 ## Overview
 
-|              Layout-1               |             Layout-2             |
-| :---------------------------------: | :------------------------------: |
-| ![Project On Desktop](layout-1.png) | ![Demo On Desktop](layout-2.png) |
+| Layout-1                                       | --                                           |
+| ---------------------------------------------- | -------------------------------------------- |
+| Desktop                                        | Mobile                                       |
+| ![Demo On Desktop](public/demo-desktop-v1.png) | ![Demo On mobile](public/demo-mobile-v1.png) |
+
+| Layout-2                                       | --                                           |
+| ---------------------------------------------- | -------------------------------------------- |
+| Desktop                                        | Mobile                                       |
+| ![Demo On Desktop](public/demo-desktop-v2.png) | ![Demo On mobile](public/demo-mobile-v2.png) |
 
 - Where can I see your demo?[here](https://devchallenges-rwd-8.onrender.com)
 - What have you learned/improved?
