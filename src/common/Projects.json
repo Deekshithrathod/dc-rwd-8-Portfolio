@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "image": "project-3.png",
+      "techStack": "#HTML #CSS #responsive",
+      "title": "About Us Page",
+      "desc": "In this project, I worked with HTML and CSS to create a responsive page. The design is from devchallenge.io. Learnt about using CSS grids & the nth-child selector & much more",
+      "demoLink": "https://devchallenges-rwd-2.onrender.com",
+      "codeLink": "https://github.com/Deekshithrathod/dc-rwd-2-My-Team-Page"
+    },
+    {
+      "image": "project-1.png",
+      "techStack": "#HTML #CSS #responsive",
+      "title": "Photo Gallery (CSS Grids)",
+      "desc": "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io.",
+      "demoLink": "https://devchallenges-rwd-5.onrender.com",
+      "codeLink": "https://github.com/Deekshithrathod/dc-rwd-5-my-gallery"
+    },
+    {
+      "image": "project-2.png",
+      "techStack": "#HTML #CSS #responsive",
+      "title": "Landing Page for a consultancy",
+      "desc": "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. Learnt about media queries etc.",
+      "demoLink": "https://devchallenges-rwd-7.onrender.com",
+      "codeLink": "https://github.com/Deekshithrathod/dc-rwd-7-landing-page"
+    }
+  ]
+}
