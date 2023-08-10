@@ -19,7 +19,7 @@ const hobbiesList: Hobby[] = [
     desc: "Freezing moments in time through the lens to tell stories, evoke emotions, and celebrate the beauty of the world.",
   },
   {
-    name: "Nexflix",
+    name: "Netflix",
     image: "hob-3.png",
     desc: "Immersing myself in captivating narratives, diverse worlds, and a spectrum of emotions.",
   },
